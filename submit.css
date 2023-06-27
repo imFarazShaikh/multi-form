@@ -1,0 +1,56 @@
+body {
+    background-color: #fcdcdc;
+    
+
+}
+
+.container {
+height: 480px;
+position: relative;
+width: 360px;
+margin: 8% auto;
+border: 1px solid black;
+border-radius: 5px;
+background-color: white;
+filter: drop-shadow(0 0 0.75rem black)
+
+}
+.headBox{
+text-align: center;
+margin-top: 60px;
+}
+h2 {
+
+font-size: 32px;
+}
+.footbox {
+text-align: center;
+margin-top: 100px;
+font-size: 40px;
+}
+p {
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+}
+b{
+    font-size: 32px;
+    margin-top: 5px;
+}
+@keyframes bounce {
+0% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-10px);
+}
+100% {
+transform: translateY(0);
+}
+}
+
+.fa-bounce {
+animation: bounce 0.5s ease-in-out;
+animation-fill-mode: forwards;
+}
